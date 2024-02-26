@@ -1,0 +1,23 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="SignIn.master.cs" Inherits="SignIn" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div style="width:30em; height:30em; margin:auto;display:flex; justify-content:center;flex-direction:column">
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+            <asp:ContentPlaceHolder id="ContentPlaceHolder2" runat="server">
+        
+            </asp:ContentPlaceHolder>
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>

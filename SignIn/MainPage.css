@@ -1,0 +1,18 @@
+﻿#Votes {
+    width: 50em;
+    height: 20em;
+    background-color: #FFFFFF;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.VoteCard {
+    width: 12em;
+    height: 14em;
+    background-color: #FFFFFF;
+}
+
+.Img{
+    background-size:cover;
+}
